@@ -10,7 +10,7 @@ namespace eSamples.Domain
     {
         public static List<HcpStateLicense> GetHcpStateLicenses(string hcpId)
         {
-            return new List<HcpStateLicense>();
+            return new List<HcpStateLicense>(); 
         }
     }
 }

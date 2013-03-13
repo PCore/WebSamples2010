@@ -11,7 +11,7 @@ namespace eSamples.Domain
     public class FederatedOrdersServiceAgent : ServiceAgentBase, IFederatedOrdersServiceAgent
     {
 
-        public OrderDetails GetLastOrderDetails(string hcpId)
+        public OrderDetails GetLastOrderDetails(string hcpId) 
         {
             return new OrderDetails();
         }
